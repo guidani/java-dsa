@@ -1,5 +1,4 @@
-// Time complexity:
-// O(n²)
+// Time complexity: O(n²)
 package DSA;
 
 public class BubbleSort {
