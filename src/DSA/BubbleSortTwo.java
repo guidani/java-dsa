@@ -4,6 +4,7 @@ public class BubbleSortTwo {
     public static void main(String[] args) {
         int[] arr = {24, 3, 45, 7, 12, 9, 11, 3, 0, 123, 54, 14};
         int n = arr.length;
+
         for (int i = 0; i < n; i++) {
             boolean swapped = false;
 
@@ -17,6 +18,7 @@ public class BubbleSortTwo {
             }
             if (!swapped) break;
         }
+        // Exibir o array
         for (int i : arr){
             System.out.println(i);
         }
